@@ -3,7 +3,7 @@ using namespace std;
 int main(){
 	string str1= "XYYZXZYZXXYZ";
 	string str2= "XYZ";
-	
+	//Solution for the variable size of strings
 	for(int i =0;i<(str1.size());i++) {
 		int j;
 		int count=0;
@@ -23,7 +23,7 @@ int main(){
 			cout<<"' present at index "<<i<<endl;
 		}
 	}
-	
+	// Solution for variable size of string and string2 fixed
 	/*for(int i =0;i<(str1.size())-2;i++) {
 		if((str2[0]==str1[i]) || (str2[0]==str1[i+1]) || (str2[0]==str1[i+2]) ){
 			if((str2[1]==str1[i]) || (str2[1]==str1[i+1]) || (str2[1]==str1[i+2]) ){
@@ -34,6 +34,7 @@ int main(){
 		}
 	}*/
 	
+	//Solution for the specific problem
 	/*for(int i =0;i<(str1.size())-2;i++) {
 		int j;
 		for(j=0;j<str2.size();j++){
