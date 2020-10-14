@@ -3,9 +3,7 @@ using namespace std;
 int main(){
 	void incOrder(int);
 	incOrder(-7);
-	
 }
-
 /*void incOrder(int lastDigit){
 	
 	int count=1;
@@ -20,7 +18,6 @@ int main(){
 		count++;
 	}
 	cout<<'\r';
-	
 	while(count>1){
 		
 		for(int i=count-2;i>0;i--){
@@ -30,13 +27,10 @@ int main(){
 			cout<<i<<" ";
 		}
 		cout<<endl;
-		
-		
 		count--;
 	}
 }
 */
-
 void incOrder(int lastDigit){
 	
 	int count=1;
@@ -52,16 +46,3 @@ void incOrder(int lastDigit){
 	}
 	cout<<'\r';
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
