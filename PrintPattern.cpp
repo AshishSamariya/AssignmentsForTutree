@@ -2,8 +2,9 @@
 using namespace std;
 int main(){
 	void incOrder(int);
-	incOrder(-7);
+	incOrder(7);
 }
+
 void incOrder(int lastDigit){
 	
 	int count=1;
@@ -18,8 +19,8 @@ void incOrder(int lastDigit){
 		count++;
 	}
 	cout<<'\r';
+	count-=1;
 	while(count>1){
-		
 		for(int i=count-2;i>0;i--){
 			cout<<" ";
 		}
