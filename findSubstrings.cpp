@@ -23,16 +23,6 @@ int main(){
 			cout<<"' present at index "<<i<<endl;
 		}
 	}
-	// Solution for variable size of string and string2 fixed
-	/*for(int i =0;i<(str1.size())-2;i++) {
-		if((str2[0]==str1[i]) || (str2[0]==str1[i+1]) || (str2[0]==str1[i+2]) ){
-			if((str2[1]==str1[i]) || (str2[1]==str1[i+1]) || (str2[1]==str1[i+2]) ){
-				if((str2[2]==str1[i]) || (str2[2]==str1[i+1]) || (str2[2]==str1[i+2]) ){
-					cout<<"Substring "<<str1[i]<<str1[i+1]<<str1[i+2]<<" at index "<<i<<endl;
-				}
-			}
-		}
-	}*/
 	
 	//Solution for the specific problem
 	/*for(int i =0;i<(str1.size())-2;i++) {
